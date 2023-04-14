@@ -8,7 +8,7 @@ $name = 'test' . $timestamp;
 if ($_SERVER['REQUEST_URI'] === '/hello') {
     try {
         error_log("Request: $timestamp started\n");
-        sleep(10);
+//        sleep(10);
         // create a PDO connection
         $dsn = "mysql:host=localhost;dbname=test";
         $username = "long";
